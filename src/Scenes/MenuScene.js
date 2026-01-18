@@ -15,7 +15,6 @@ export default class MenuScene extends Phaser.Scene {
       .rectangle(width / 2, height / 2, width * 0.9, height * 0.85, 0x1c1c2b, 0.25)
       .setStrokeStyle(2, 0xffffff, 0.12);
 
-    // Title
     this.add
       .text(width / 2, height * 0.22, "Dice Dungeon", {
         fontFamily: "Arial, sans-serif",
@@ -25,7 +24,6 @@ export default class MenuScene extends Phaser.Scene {
       })
       .setOrigin(0.5);
 
-    // Subtitle
     this.add
       .text(width / 2, height * 0.32, "Roll your fate. Survive the floors.", {
         fontFamily: "Arial, sans-serif",
